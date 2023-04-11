@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title> membuat Form </title>
+    </head>
+    <body>
+        <table border="5" bordercolor="gray">
+            <tr bgcolor="lightskyblue" align="center">
+                <td width="500" height="80" align="center" valign="top">
+                    <font color="red" size="6" > <b> Pendaftaran Kursus </b></font>
+                </td>
+            </tr>
+            <tr bgcolor="gray" width="500" height="350" align="left" valign="top">
+                <td>
+                <table>
+                    <tr>
+                        <td>
+                            <font black size="4"><b>Data Diri</b></font>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>nama</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Nim</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail</td>
+                        <td><input type="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td><input type="datetime" value="hh/bb/tttt"></td>
+                    </tr>
+                    <tr>
+                        <td>jenis kelamin</td>
+                        <td><input type="radio"> Laki-laki</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="radio"> Perempuan</td>
+                    </tr>
+                    <tr>
+                        <td>Pilih Program Kursus</td>
+                        <td><input type="checkbox">C#</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox">Java</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox">SQL</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox">HTML dan PHP</td>
+                    </tr>
+                    <tr>
+                        <td>Pilihan hari/jam kusus</td>
+                        <td><select name="waktu">
+                            <option value="teserah"> senin-rabu/09.00 - 11.00</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                </td>
+            </tr>
+            <tr bgcolor="salmon" width="500" height="150" align="left" valign="top">
+                <td>
+                    <table>
+                        <tr>
+                            <td><font style="arial">Komentar anda</font></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea name="komentar"cols="50" rows="5"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit">
+                            <input type="reset">
+                            <input type="button" value="Batal"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
